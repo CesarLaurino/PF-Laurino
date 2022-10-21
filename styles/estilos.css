@@ -1,0 +1,542 @@
+/*-----------------HEADER-----------------*/
+header nav .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(246, 227, 196);
+  font-size: 15px;
+  width: 0 auto;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.trans1 {
+  background-color: rgb(246, 227, 196);
+  text-align: center;
+}
+
+.inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.logo0 {
+  text-align: center;
+}
+
+/*----------------FOOTER------------------*/
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  background-color: rgb(246, 227, 196);
+}
+
+.redes1 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+ul {
+  padding-left: 0rem;
+}
+
+footer .copy {
+  text-align: left;
+  font-size: 10px;
+  color: grey;
+  font-style: italic;
+}
+
+.iconoRed {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+}
+
+/*-----------------INDEX-----------------*/
+a {
+  color: var(--colortexto);
+}
+
+.inicio2 {
+  text-align: center;
+  background-image: url("https://eacnur.org/blog/wp-content/uploads/2017/06/libros-que-hay-que-leer-1-724x400.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--colortexto);
+  height: 150px;
+  font-size: 30px;
+}
+
+.titulo {
+  text-align: center;
+  color: var(--colortexto2);
+  height: 30px;
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+  font-size: 20px;
+}
+
+.subtitulo {
+  text-align: center;
+  color: var(--colortexto2);
+  margin-top: 15px;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.textoInicio {
+  font-size: 15px;
+  color: var(--colortexto2);
+  margin: 20px;
+}
+
+.titulos2 {
+  text-align: center;
+  color: var(--colortexto2);
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.listaVentajas {
+  font-size: 15px;
+  color: var(--colortexto2);
+  margin-left: 15px;
+  background-color: beige;
+}
+
+.clientes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nombre {
+  color: var(--colortexto);
+}
+
+.maps {
+  height: 300px;
+  width: 98%;
+  margin-left: 8px;
+}
+
+.ventajaColor {
+  background-color: rgb(246, 227, 196);
+  color: var(--colortexto);
+}
+
+/*-----------------SERVICIO------------------*/
+.servicio {
+  text-align: center;
+  background-image: url("https://www.traduspanish.com/images/servicio-de-traduccion.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--colortexto);
+  height: 100px;
+  font-size: 30px;
+}
+
+.lista1 {
+  margin-top: 25px;
+  font-size: 15px;
+  color: var(--colortexto);
+  text-decoration: underline;
+  text-align: center;
+  list-style-type: none;
+}
+
+.accordion {
+  margin: 20px;
+  min-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.accordion-button {
+  font-size: 20px;
+  color: var(--colortexto2);
+  background-color: rgb(246, 227, 196);
+  text-align: center;
+}
+
+.accordion-body {
+  background-color: rgb(251, 239, 218);
+  color: var(--colortexto);
+}
+
+/*------------PREGUNTAS FRECUENTES-----------*/
+.preguntasFrecuentes {
+  text-align: center;
+  text-shadow: 10px;
+  background-image: url("https://web-static.wrike.com/cdn-cgi/image/width=900,format=auto/blog/content/uploads/2019/09/Preguntas-ma-s-comunes-Puesto-de-gestor-de-proyectos.jpg?av=4b18e71802fced482b8d53b6256c782b");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--colortexto);
+  height: 150px;
+  font-size: 30px;
+  width: 100%;
+}
+
+ol, ul {
+  padding-left: 1rem;
+}
+
+.preguntas2 {
+  color: var(--colortexto3);
+  text-align: center;
+  -webkit-text-decoration: underline var(--colortexto3);
+          text-decoration: underline var(--colortexto3);
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.resp {
+  font-size: 15px;
+  color: var(--colortexto2);
+}
+
+/*------------------CONTACTO-----------------*/
+button {
+  padding: 15px;
+  color: var(--colortexto);
+}
+
+.contacto {
+  text-align: center;
+  background-image: url("http://www.riodeoro.com.ar/public_html/new_sitio/wp-content/uploads/2019/04/06_CONTACTO_VIVUS-612x344.jpg ");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--colortexto);
+  height: 150px;
+  font-size: 30px;
+}
+
+form label input {
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+
+.formulario0 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.formulario {
+  padding: 5px;
+  margin-top: 10px;
+  color: var(--colortexto3);
+  font-size: 15px;
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+}
+
+.formulario2 {
+  margin-bottom: 50px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.formulario3 {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 15px;
+  height: 100px;
+}
+
+.contactoer {
+  top: 47%;
+  margin: 5px;
+  left: 1%;
+  position: absolute;
+  font-size: 10px;
+  color: var(--colortexto3);
+  display: none;
+}
+
+.contactoer2 {
+  margin: 5px;
+}
+
+.boton:active {
+  background-color: rgba(165, 42, 42, 0.29);
+}
+
+.botonPresupuesto {
+  text-align: center;
+  font-size: 15px;
+}
+
+/*-----------------PRESUPUESTO---------------*/
+.presupuesto2 {
+  text-align: center;
+  text-shadow: 10px;
+  background-image: url("https://concepto.de/wp-content/uploads/2012/03/presupuesto-e1552528931640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--colortexto);
+  height: 150px;
+  font-size: 30px;
+}
+
+.formPresupuesto {
+  text-align: center;
+}
+
+div .presupuesto3 {
+  color: var(--colortexto3);
+  font-size: 25px;
+  text-decoration: underline;
+  margin: 20px;
+}
+
+.u p {
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.opcion {
+  padding: 20px;
+  margin-left: 10px;
+  text-decoration: underline;
+  color: var(--colortexto3);
+  font-size: 15px;
+}
+
+.opcion2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+  color: var(--colortexto3);
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.opcion3 {
+  padding: 5px;
+  margin-left: 10px;
+  color: var(--colortexto3);
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.textarea {
+  height: 100px;
+  font-size: 15px;
+}
+
+.botonPresupuesto {
+  text-align: center;
+  padding: 30px;
+}
+
+header nav .menu {
+  font-size: 25px;
+}
+@media (min-width: 768px) {
+  header nav .menu {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.imgcliente {
+  height: 75px;
+  width: 120px;
+  border: 5px solid var(--colortexto);
+  border-radius: 50px;
+  margin: 5px;
+}
+@media (min-width: 500px) {
+  .imgcliente {
+    height: 100px;
+    margin: 5px;
+  }
+}
+@media (min-width: 768px) {
+  .imgcliente {
+    margin: 10px;
+  }
+}
+
+.logo {
+  border: 2px solid crimson;
+  border-radius: 15%;
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 80px;
+}
+@media (min-width: 500px) {
+  .logo {
+    height: 125px;
+    width: 175px;
+    margin-bottom: 10px;
+  }
+}
+.whatsapp {
+  top: 40%;
+  right: 2%;
+  position: fixed;
+  z-index: 99;
+}
+@media (min-width: 500px) {
+  .whatsapp {
+    height: 65px;
+    width: 65px;
+  }
+}
+
+/* VISTA TABLET */
+@media (min-width: 500px) {
+  .titulo .subtitulo, .titulos2 {
+    font-size: 30px;
+  }
+  .textoInicio, .listaVentajas, .accordion {
+    font-size: 20px;
+  }
+  .maps {
+    height: 500px;
+  }
+  .iconoRed {
+    height: 50px;
+    width: 50px;
+  }
+  .lista1, .preguntas2, .resp, .formulario, .formulario3, div .presupuesto3 {
+    font-size: 25px;
+  }
+  .botonPresupuesto {
+    font-size: 20px;
+  }
+  footer .copy {
+    font-size: 15px;
+  }
+  .opcion, .opcion2, .opcion3 {
+    font-size: 20px;
+  }
+  .inicio2, .servicio, .preguntasFrecuentes, .contacto, .presupuesto2 {
+    background-attachment: fixed;
+  }
+}
+/* VISTA DESKTOP */
+@media (min-width: 768px) {
+  .inicio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .trans1 {
+    -webkit-animation-name: menu;
+            animation-name: menu;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    margin: 5px;
+  }
+  .trans1:hover {
+    transform: scale(1.2);
+    text-decoration: none;
+    font-size: 25px;
+    transition: 1s;
+    text-shadow: black 10px 10px 5px;
+  }
+  .clientes {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .redes {
+    justify-content: space-evenly;
+  }
+  .redes1:hover {
+    transform: scale(1.5);
+  }
+  .whatsapp:hover {
+    transform: scale(1.5);
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1.9fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "nuestros-clientes ventajas" "clientes listaVentajas";
+  }
+  .nuestros-clientes {
+    grid-area: nuestros-clientes;
+  }
+  .ventajas {
+    grid-area: ventajas;
+  }
+  .clientes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "amazon ." ". tresm" "bayer ." ". vichy";
+    grid-area: clientes;
+  }
+  .amazon {
+    grid-area: amazon;
+  }
+  .tresm {
+    grid-area: tresm;
+  }
+  .bayer {
+    grid-area: bayer;
+  }
+  .vichy {
+    grid-area: vichy;
+  }
+  .listaVentajas {
+    grid-area: listaVentajas;
+  }
+  .ventajaColor {
+    margin-bottom: 30px;
+  }
+}
+/* Vista TV */
+@media (min-width: 1024px) {
+  .trans1 {
+    margin: 30px;
+  }
+  .contactoer {
+    display: initial;
+    font-size: 20px;
+  }
+}
+:root {
+  --colorbody: beige;
+  --colortexto: brown;
+  --colortexto2: darkred;
+  --colortexto3: rgb(123, 39, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: var(--colorbody);
+}/*# sourceMappingURL=estilos.css.map */

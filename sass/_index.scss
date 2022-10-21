@@ -1,0 +1,75 @@
+/*-----------------INDEX-----------------*/
+
+a{
+    color: var(--colortexto);
+}
+
+.inicio2{
+    text-align: center;
+    background-image:url("https://eacnur.org/blog/wp-content/uploads/2017/06/libros-que-hay-que-leer-1-724x400.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    color: var(--colortexto);
+    height: 150px;
+    font-size: 30px;
+}
+
+.titulo{
+    text-align: center;
+    color: var(--colortexto2);
+    height: 30px;
+    text-decoration: underline double;
+    font-size: 20px;
+}
+
+.subtitulo{
+    text-align: center;
+    color: var(--colortexto2);
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.textoInicio{
+    font-size: 15px;
+    color: var(--colortexto2);
+    margin: 20px;
+}
+
+.titulos2{
+    text-align: center;
+    color: var(--colortexto2);
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.listaVentajas{
+    font-size: 15px;
+    color: var(--colortexto2);
+    margin-left: 15px;
+    background-color: beige;
+}
+
+.clientes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nombre{
+    color: var(--colortexto);
+}
+
+.maps{
+    height: 300px;
+    width: 98%;
+    margin-left: 8px;
+}
+
+.ventajaColor{
+    background-color:rgb(246, 227, 196);
+    color: var(--colortexto);
+}

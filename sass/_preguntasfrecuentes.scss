@@ -1,0 +1,32 @@
+/*------------PREGUNTAS FRECUENTES-----------*/
+
+.preguntasFrecuentes{
+    text-align: center;
+    text-shadow: 10px;
+    background-image:url("https://web-static.wrike.com/cdn-cgi/image/width=900,format=auto/blog/content/uploads/2019/09/Preguntas-ma-s-comunes-Puesto-de-gestor-de-proyectos.jpg?av=4b18e71802fced482b8d53b6256c782b");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    color: var(--colortexto);
+    height: 150px;
+    font-size: 30px;
+    width: 100%;
+}
+
+ol, ul {
+    padding-left: 1rem; 
+}
+
+.preguntas2{
+    color: var(--colortexto3);
+    text-align: center;
+    text-decoration: underline var(--colortexto3);
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.resp{
+    font-size: 15px;
+    color: var(--colortexto2);
+}

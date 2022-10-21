@@ -1,0 +1,23 @@
+@import "header";
+@import "footer";
+@import "index";
+@import "servicios";
+@import "preguntasfrecuentes";
+@import "contacto";
+@import "presupuesto";
+@import "media";
+:root{
+    --colorbody: beige;
+    --colortexto: brown;
+    --colortexto2: darkred;
+    --colortexto3: rgb(123, 39, 0);
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--colorbody);
+}

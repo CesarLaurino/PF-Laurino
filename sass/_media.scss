@@ -1,0 +1,179 @@
+header nav .menu{
+    font-size: 25px;
+
+    @media(min-width:768px){
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.imgcliente{
+    height: 75px;
+    width: 120px;
+    border: 5px solid var(--colortexto);
+    border-radius: 50px;
+    margin: 5px;
+
+    @media(min-width:500px){
+        height: 100px;
+        margin: 5px;
+        }
+    
+    @media(min-width:768px){
+        margin: 10px;
+        
+    }
+}
+
+.logo{
+    border: 2px solid crimson;
+    border-radius: 15%;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 80px;
+
+    @media(min-width:500px){
+        height: 125px;
+        width: 175px;
+        margin-bottom: 10px;
+        }
+
+    @media(min-width:768px){
+        
+    }
+} 
+
+.whatsapp{
+    top: 40%;
+    right: 2%;
+    position: fixed;
+    z-index: 99;
+
+    @media(min-width:500px){
+        height: 65px;
+        width: 65px;
+    }
+}
+
+
+/* VISTA TABLET */
+@media(min-width:500px){
+
+    .titulo .subtitulo, .titulos2{
+        font-size: 30px;
+    }
+    .textoInicio, .listaVentajas, .accordion{
+        font-size: 20px;
+    }
+    .maps{
+        height: 500px;
+    }
+
+    .iconoRed{
+        height: 50px;
+        width: 50px;
+    }
+    .lista1,  .preguntas2, .resp, .formulario, .formulario3, div .presupuesto3{
+        font-size: 25px;
+    }
+    .botonPresupuesto{
+        font-size: 20px;
+    }
+    footer .copy{
+        font-size: 15px;
+    }
+    .opcion, .opcion2, .opcion3{
+        font-size: 20px;
+    }
+    .inicio2, .servicio, .preguntasFrecuentes, .contacto, .presupuesto2{
+        background-attachment: fixed;
+    }
+}
+
+/* VISTA DESKTOP */
+@media(min-width:768px){
+    .inicio{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .trans1{
+        animation-name: menu;
+        animation-duration: 4s;
+        margin: 5px;
+    }
+    .trans1:hover{
+        transform:scale(1.2);
+        text-decoration: none;
+        font-size: 25px;
+        transition: 1s;
+        text-shadow: black 10px 10px 5px;
+    }
+
+    .clientes{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .redes{
+        justify-content: space-evenly;
+    }
+    .redes1:hover{
+        transform: scale(1.5);
+    }
+    .whatsapp:hover{
+        transform: scale(1.5);
+    }
+    .container {  display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.1fr 1.9fr;
+        grid-auto-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "nuestros-clientes ventajas"
+        "clientes listaVentajas";
+    }
+    
+    .nuestros-clientes { grid-area: nuestros-clientes; }
+    
+    .ventajas { grid-area: ventajas; }
+    
+    .clientes {  display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr 0.5fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "amazon ."
+        ". tresm"
+        "bayer ."
+        ". vichy";
+        grid-area: clientes;
+    }
+    
+    .amazon { grid-area: amazon; }
+    
+    .tresm { grid-area: tresm; }
+    
+    .bayer { grid-area: bayer; }
+    
+    .vichy { grid-area: vichy; }
+    
+    .listaVentajas { grid-area: listaVentajas; }
+
+    .ventajaColor{
+        margin-bottom: 30px;
+    }
+}
+
+/* Vista TV */
+@media(min-width:1024px){
+    .trans1{
+        margin: 30px;
+    }
+    .contactoer{
+        display:initial;
+        font-size: 20px;
+    }
+}
+

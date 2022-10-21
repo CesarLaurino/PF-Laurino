@@ -1,0 +1,33 @@
+/*----------------FOOTER------------------*/
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    background-color:rgb(246, 227, 196);
+}
+
+.redes1{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+ul{
+    padding-left: 0rem;
+}
+
+footer{
+    .copy{
+        text-align: left;
+        font-size: 10px;
+        color: grey;
+        font-style: italic;
+    }
+}
+
+.iconoRed{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
